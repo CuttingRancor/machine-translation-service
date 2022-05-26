@@ -4,6 +4,9 @@ Translation flask API for the Helsinki NLP models available in the [Huggingface 
 ## Usage
 ### Language Detect Models  
 Clone models from Hugging Face to machine-translation-service/lang_detect_models (Requires git-lfs)  
+Current Models:
+* language-detection-fine-tuned-on-xlm-roberta-base
+* xlm-roberta-base-language-detection
 
 ### Translation models  
 Download language translation models using the command line utility.  
