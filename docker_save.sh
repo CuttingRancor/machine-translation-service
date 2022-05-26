@@ -1,0 +1,1 @@
+docker save machine-translation-service:1.0.1 | gzip > machine-translation-service_1_0_1.tar.gz

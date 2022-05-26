@@ -1,0 +1,11 @@
+version: "3"
+services:
+  machine-translation-service:
+    image: machine-translation-service:1.0.1
+    container_name: machine-translation-service
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./certs:/opt/certs
+      - ./language_detect_models:/opt/language_detect_models
+      - ./translation_models:/opt/translation_models
